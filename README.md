@@ -1,222 +1,269 @@
-# 📊 Regional Sales Analysis  
-### End-to-End Data Analytics & Business Intelligence Project
+# 📊 Regional Sales Analytics – End-to-End Business Intelligence Project
 
----
+## 📌 Project Overview
+This project delivers an **end-to-end sales analytics solution** using **Python, PostgreSQL (SQL), and Power BI** to analyze **multi-year U.S. regional sales data**.  
+It focuses on solving **real-world business problems** related to revenue performance, profitability, customer concentration risk, channel efficiency, and seasonality.
 
-## 🧠 Project Overview
-
-Sales organizations often face **uneven regional performance**, **unclear seasonal demand patterns**, and **limited visibility into product, customer, and channel profitability**.  
-This project delivers a **data-driven regional sales intelligence solution** by analyzing **5 years of U.S. sales data** and converting it into **actionable business insights** through **Exploratory Data Analysis (EDA)** and an **interactive Power BI dashboard**.
-
-The objective is to **identify growth levers, optimize pricing and channel strategies, and support data-driven decision-making** at both operational and strategic levels.
+The project is designed to reflect **industry-grade analytics workflows** commonly used in **data analyst, business analyst, and analytics engineer roles**.
 
 ---
 
 ## 🎯 Business Problem Statement
+Organizations often struggle with:
+- Uneven revenue and profit performance across regions
+- Limited visibility into **true profit drivers**
+- Over-dependence on specific customers or channels
+- Poor understanding of seasonal demand patterns
+- Difficulty tracking **budget vs actual performance**
 
-- Inconsistent revenue and profit performance across U.S. regions  
-- Limited visibility into:
-  - Seasonal sales fluctuations  
-  - High-impact and low-performing SKUs  
-  - Channel-wise profitability  
-  - Customer revenue concentration  
-- Fragmented datasets with no predefined relationships  
-
-### Business Question
-> How can historical sales data be leveraged to uncover regional trends, profitability drivers, and strategic opportunities to improve overall business performance?
+This project addresses these challenges by transforming raw sales data into **actionable, decision-ready insights**.
 
 ---
 
-## 🛠️ Solution Approach
+## 🎯 Project Objectives
+- Perform structured **Exploratory Data Analysis (EDA)**
+- Identify **growth opportunities and risk areas**
+- Measure **profitability and efficiency**
+- Support **data-driven strategic decisions**
+- Demonstrate strong proficiency in **Python, SQL, and BI tools**
+- Present insights in a **clear, business-focused manner**
 
-This project follows a **two-phase analytical framework**:
+---
 
-### 1️⃣ Exploratory Data Analysis (EDA)
-- Analyze historical sales data to identify trends, patterns, and anomalies  
-- Understand relationships between products, customers, channels, and regions  
-- Build a strong analytical foundation for business recommendations  
+## 🛠️ Tech Stack (ATS-Optimized)
 
-### 2️⃣ Interactive Dashboarding
-- Design a **self-service Power BI dashboard** for business users  
-- Enable ad-hoc analysis by:
-  - Time
-  - Product
-  - Region
-  - State
-  - Sales channel  
-- Translate analytical insights into **decision-ready visuals**
+### 🔹 Programming & Analysis
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+
+### 🔹 Databases & Querying
+- **PostgreSQL**
+- **pgAdmin**
+- Advanced SQL (CTEs, Window Functions, Aggregations)
+
+### 🔹 Visualization & Reporting
+- **Power BI**
+
+### 🔹 Version Control
+- **Git**
+- **GitHub**
 
 ---
 
 ## 🔄 Project Workflow
 
-```text
-Raw Data
-   ↓
-Data Cleaning & Pre-processing
-   ↓
-Feature Engineering
-   ↓
-Exploratory Data Analysis (EDA)
-   ↓
-Business Insights
-   ↓
-Strategic Recommendations
-   ↓
-Interactive Power BI Dashboard
+### 1️⃣ Data Preparation (Python)
+- Merged multiple datasets (sales, customers, products, regions, budgets)
+- Cleaned and standardized data
+- Engineered key metrics:
+  - **Revenue**
+  - **Profit**
+  - **Profit Margin (%)**
+  - Time-based features (month, year)
+- Validated data integrity (no missing or duplicate records)
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Identified trends, distributions, and outliers
+- Analyzed:
+  - Seasonality
+  - Product concentration
+  - Channel contribution
+  - Regional performance
+  - Customer segmentation
+
+### 3️⃣ Advanced SQL Business Analysis
+- Imported cleaned dataset into PostgreSQL
+- Solved **15 real-world business problems using SQL**
+- Applied:
+  - CTEs
+  - Window functions
+  - Ranking & percentiles
+  - Statistical functions
+
+### 4️⃣ Power BI Dashboard
+- Built interactive dashboards for stakeholder self-service
+- Enabled slicing by:
+  - Time
+  - Product
+  - Region
+  - Channel
+- Highlighted KPIs, trends, and insights visually
+
+---
+
+## 🗄️ SQL-Based Business Problems Solved
+
+The SQL component focuses on **decision-oriented analytics**, not basic querying.
+
+### 🔍 Key Business Questions Addressed:
+- Regional **profit efficiency** analysis
+- **Margin leakage** detection across channels
+- **Pareto (80/20) analysis** for product optimization
+- Identification of **high-revenue, low-margin SKUs**
+- **Customer concentration risk** analysis
+- Seasonal **revenue volatility** measurement
+- **Budget vs actual** performance comparison
+- Detection of **channel dependency risks**
+- Order value **segmentation analysis**
+- Pricing vs volume **revenue driver analysis**
+- Creation of **low-margin alert logic**
+- Geographic **profit hotspot identification**
+
+📌 These analyses help businesses:
+- Improve pricing strategies
+- Optimize product portfolios
+- Reduce dependency risk
+- Increase overall profitability
+
+---
+
+## 📊 Power BI Dashboard Highlights
+- Revenue & profit trend analysis
+- Top-performing products and customers
+- Channel-wise contribution
+- Regional performance maps
+- Scenario-based revenue views
+
+Designed for **non-technical stakeholders** to explore insights independently.
+
+---
+
+## 📈 Key Findings
+- Revenue shows strong **seasonal patterns**
+- A small group of products contributes a large share of revenue
+- Wholesale dominates volume, while Export leads in margins
+- Certain customers generate high revenue but lower margins
+- Profitability is more influenced by **pricing than quantity**
+
+---
+
+## 📌 Business Recommendations
+- Launch targeted promotions during low-demand periods
+- Focus investment on high-impact SKUs
+- Re-evaluate pricing for low-margin products
+- Diversify customer and channel dependencies
+- Strengthen regional strategies based on top-performing states
+
+---
+
+## ✅ Project Impact
+- Demonstrates **real-world analytics problem-solving**
+- Combines **technical depth with business reasoning**
+- Suitable for roles such as:
+  - Data Analyst
+  - Business Analyst
+  - Analytics Engineer
+  - Junior Data Scientist
+
+---
+
+## ▶️ How to Run This Project
+
+This section explains how to reproduce the complete end-to-end analytics workflow, from data preparation to SQL analysis and dashboard visualization.
+
+---
+
+### 🔹 Step 1: Clone the Repository
+Clone the GitHub repository to your local system:
+
+```bash
+git clone https://github.com/your-username/sales-analytics-project.git
+cd sales-analytics-project
 ```
 
-## 🧾 Data Overview
+---
 
-### Raw Data Characteristics
-- Sales, customers, products, regions, states, and budgets stored in **separate unlinked tables**
-- No predefined relationships between datasets
-- Required extensive preprocessing before analysis
+### 🔹 Step 2: Python – Data Cleaning & Exploratory Data Analysis (EDA)
 
-### Data Pre-processing & Feature Engineering
-- Merged all datasets into a unified analytical model  
-- Standardized column names and formats  
-- Removed redundant attributes  
-- Engineered new features:
-  - `profit`
-  - `profit_margin_pct`
-  - calendar attributes (month name, month number, year)  
-- **No missing values or duplicate records** found  
+1. Open **Jupyter Notebook** or **VS Code**
+2. Navigate to the `notebooks/` folder
+3. Open and run the `.ipynb` file to perform:
+   - Data cleaning
+   - Feature engineering
+   - Exploratory Data Analysis (EDA)
+4. This step generates the **final cleaned dataset** used for SQL and Power BI analysis
+
+**Output produced:**
+- Cleaned sales dataset exported to the `data/` folder (Excel/CSV)
 
 ---
 
-## 🧩 Final Dataset Structure
+### 🔹 Step 3: Load Data into PostgreSQL (SQL Analysis)
 
-### Feature Categories
+1. Open **pgAdmin**
+2. Create a PostgreSQL database named:
 
-**Identifiers**
-- `order_number`, `order_date`, `customer_name`, `product_name`, `channel`
+```text
+sales_analytics_db
+```
 
-**Financial Metrics**
-- `quantity`, `unit_price`, `revenue`, `cost`, `profit`, `profit_margin_pct`
+3. Create the required table schema in PostgreSQL
+4. Import the cleaned dataset from the `data/` folder into the database
+5. Validate that the data is loaded correctly:
 
-**Time Attributes**
-- `order_month`, `order_month_num`, `order_year`
-
-**Geographic Attributes**
-- `state_code`, `state_name`, `us_region`, `latitude`, `longitude`
-
-**Planning Data**
-- `budget (2017)`
+```sql
+SELECT COUNT(*) FROM sales_data;
+```
 
 ---
 
-## 📈 Exploratory Data Analysis Highlights
+### 🔹 Step 4: Execute SQL Business Queries
 
-### 🔹 Sales Trends
-- Stable annual revenue cycle between **$24M–$26M**
-- Seasonal peaks observed during **May–June**
-- Lowest revenue levels recorded in **January**
-- Significant revenue dip detected in early 2017 (outlier)
+1. Navigate to the `sql/` folder
+2. Open the SQL files using **pgAdmin**
+3. Run the queries sequentially
 
-### 🔹 Product Performance
-- **Products 26 and 25** contribute approximately **25% of total revenue**
-- Mid-tier products show consistent revenue potential
-- Bottom-performing SKUs identified for pricing or portfolio review
+Each SQL file contains:
+- Clearly defined **business questions**
+- Well-documented **SQL solutions**
+- Use of **CTEs, window functions, ranking, and aggregations**
+- Comments explaining **why the query is used and how it helps the business**
 
-### 🔹 Channel Performance
-- **Wholesale:** 54.1% of total sales volume  
-- **Distributor:** 31.3%  
-- **Export:** 14.6% with the **highest average profit margins**
-
-### 🔹 Geographic Insights
-- **California** leads in both revenue and order volume
-- **West region** demonstrates the strongest overall market presence
-- **Northeast region** underperforms, indicating expansion opportunities
-
-### 🔹 Customer Segmentation
-- Revenue is highly concentrated among top customers
-- Uniform **35–40% margins** indicate strong pricing control
-- High-revenue but low-margin customers flagged for contract optimization
-
-### 🔹 Correlation Analysis
-- `unit_price` is the strongest driver of:
-  - revenue (0.91)
-  - profit (0.79)
-- `quantity` has limited impact on profitability
-- Margin improvement is primarily driven by **pricing strategy**
+This step uncovers insights related to:
+- Profitability drivers
+- Margin leakage
+- Customer concentration risk
+- Channel dependency
+- Seasonal trends
+- Budget vs actual performance
 
 ---
 
-## 🔑 Key Business Insights
+### 🔹 Step 5: Power BI Dashboard
 
-- Strong **seasonality**, with revenue softness during Q1  
-- High **SKU concentration risk**, with top products dominating revenue  
-- Export channel delivers superior margins despite lower volume  
-- California alone contributes a disproportionate share of revenue and orders  
-- Customer revenue distribution is significantly skewed  
+1. Open **Power BI Desktop**
+2. Navigate to the `powerbi/` folder
+3. Open the `.pbix` file
+4. Refresh the data connection if required
+5. Use slicers and filters to explore insights by:
+   - Region
+   - Product
+   - Channel
+   - Time period
 
----
-
-## 💡 Strategic Recommendations
-
-- **Seasonality Management:**  
-  Introduce targeted campaigns during low-performing months and amplify peak-season promotions  
-
-- **SKU Optimization:**  
-  Focus investment on high-performing products and re-evaluate low-margin SKUs  
-
-- **Channel Strategy:**  
-  Expand Export partnerships for margin growth while optimizing Wholesale volume incentives  
-
-- **Regional Expansion:**  
-  Replicate California’s success model across underperforming regions  
-
-- **Margin Monitoring:**  
-  Proactively flag low-margin orders and investigate cost drivers  
+The dashboard enables **self-service analytics** for business stakeholders.
 
 ---
 
-## 📊 Dashboard Overview (Power BI)
+## 🏁 Conclusion
 
-The Power BI dashboard enables:
-- Executive performance summaries  
-- Customer segmentation analysis  
-- Revenue and margin scenario evaluation  
-- Drill-down insights by region, state, product, and channel  
+This project demonstrates a **real-world, end-to-end data analytics workflow** by integrating:
 
-Designed for **self-service analytics and strategic planning**.
+- **Python** for data cleaning, feature engineering, and EDA  
+- **PostgreSQL (SQL)** for advanced, business-driven analysis  
+- **Power BI** for interactive visualization and reporting  
 
----
-
-## 🧠 Business Impact
-
-- Converts raw historical data into **decision-ready insights**
-- Supports:
-  - sales strategy
-  - pricing optimization
-  - channel planning
-  - regional investment decisions  
-- Enables stakeholders to onboard new datasets seamlessly  
+The insights derived from this project help organizations improve pricing strategies, optimize product portfolios, reduce dependency risks, and make informed strategic decisions.
 
 ---
 
-## 🧰 Tools & Technologies
+## 👤 Author
 
-- **Programming:** Python  
-- **Data Analysis:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
-- **Business Intelligence:** Power BI  
-- **Data Handling:** Excel, CSV  
-
----
-
-## 🚀 Future Enhancements
-
-- Sales and demand forecasting models  
-- Automated KPI alerts and monitoring  
-- Customer lifetime value (CLV) analysis  
-- Cloud data warehouse integration  
-- Advanced scenario simulation using machine learning  
+**Mohamed Sahad M**  
+Master’s in Statistics  
+Data Analytics | SQL | Power BI | Python  
+📍 India
 
 ---
 
-## 📌 Conclusion
 
-This project demonstrates a **complete analytics lifecycle** — from raw data preparation to executive dashboards — delivering **scalable, data-driven insights for real-world business decision-making**.
 
